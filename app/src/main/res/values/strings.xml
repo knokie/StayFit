@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Stay Fit Hospital</string>
+    <string name="stayfit">Stay Fit Hospital</string>
+    <string name="creator">Coded by Kelly Ng</string>
+    <string name="scan">Scan Patient ID</string>
+    <string name="strscan">Scan</string>
+</resources>
