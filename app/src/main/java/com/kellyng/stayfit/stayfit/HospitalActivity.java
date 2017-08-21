@@ -1,5 +1,6 @@
 package com.kellyng.stayfit.stayfit;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,6 +9,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class HospitalActivity extends AppCompatActivity {
+
+
 
     private Button btScan;
     private EditText etPatientID;
@@ -30,9 +33,19 @@ public class HospitalActivity extends AppCompatActivity {
                 }
                 else
                 {
-
+                    Intent nextScreen = new Intent(getApplicationContext(), PatientActivity.class);
+                    nextScreen.putExtra("PID", etPatientID.getText().toString());
+                    startActivity(nextScreen);
                 }
             }
         });
     }
+
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+
+        etPatientID.setText("");
+    }
+
 }

@@ -21,6 +21,10 @@
         <activity android:name=".HospitalActivity"
             android:label="@string/app_name">
         </activity>
+
+        <activity android:name=".PatientActivity"
+            android:label="Patient Info">
+        </activity>
     </application>
 
 </manifest>

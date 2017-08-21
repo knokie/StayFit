@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:background="#00cccc"
+
+    >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/patientname"
+        android:paddingTop="10dp"
+        android:stretchColumns="1"
+        >
+        <TableRow>
+            <TextView
+            android:paddingRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="@string/patientID"
+            android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:id="@+id/StringPatientID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"></TextView>
+        </TableRow>
+</TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/patientname"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        >
+        <TableRow>
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/firstname"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StringFirstname"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/lastname"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StringLastname"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"></TextView>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/DOB"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StringDOB"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/TOB"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StringTOB"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"></TextView>
+
+        </TableRow>
+
+        <TableRow>
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/place"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StringPlaceOfBirth"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/weight"
+                android:textSize="12dp"></TextView>
+
+            <TextView
+                android:paddingRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/StringWeight"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="12dp"></TextView>
+
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
