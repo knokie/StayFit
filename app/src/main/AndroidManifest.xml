@@ -25,6 +25,11 @@
         <activity android:name=".PatientActivity"
             android:label="Patient Info">
         </activity>
+
+        <activity android:name=".RecordActivity"
+            android:label="Patient Record">
+        </activity>
+
     </application>
 
 </manifest>

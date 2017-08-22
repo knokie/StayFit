@@ -2,7 +2,7 @@
     <string name="app_name">Stay Fit Hospital</string>
     <string name="stayfit">Stay Fit Hospital</string>
     <string name="creator">Coded by Kelly Ng</string>
-    <string name="scan">Scan Patient ID</string>
+    <string name="scan">Search</string>
     <string name="strscan">Scan</string>
     <string name="feeding">Feeding</string>
     <string name="firstname">First Name:</string>
@@ -18,4 +18,5 @@
     <string name="StringTOB">11:00PM</string>
     <string name="StringPlaceOfBirth">PENANG</string>
     <string name="StringWeight">2.1</string>
+    <string name="StringViewRecord">View Record</string>
 </resources>

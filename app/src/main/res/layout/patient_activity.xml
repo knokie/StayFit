@@ -151,6 +151,7 @@
                 android:textSize="12dp"></TextView>
 
             <TextView
+                android:id="@+id/weightlabel"
                 android:paddingRight="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -160,5 +161,19 @@
                 android:textSize="12dp"></TextView>
 
         </TableRow>
+
     </TableLayout>
+    <Button
+        android:id="@+id/ViewRecord"
+        android:text="@string/StringViewRecord"
+        android:background="@drawable/scanbutton"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:layout_centerInParent="true"
+        ></Button>
+
 </RelativeLayout>
